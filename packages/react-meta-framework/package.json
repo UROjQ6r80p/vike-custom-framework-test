@@ -1,0 +1,24 @@
+{
+  "name": "react-meta-framework",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./config": "./renderer/+config.h.js",
+    "./renderer/onRenderHtml": "./renderer/+onRenderHtml.jsx",
+    "./renderer/onRenderClient": "./renderer/+onRenderClient.jsx",
+    "./middleware": "./middleware.js"
+  },
+  "devDependencies": {
+    "vite": "^4.3.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vike-react": "~0.3.7",
+    "vike": "^0.4.149",
+    "@vitejs/plugin-react": "~4.2.1"
+  },
+  "dependencies": {
+    "react-helmet": "~6.1.0",
+    "send": "~0.18.0",
+    "prop-types": "~15.8.1"
+  }
+}
